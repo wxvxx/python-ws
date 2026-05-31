@@ -2,7 +2,7 @@ FROM python:3.12-alpine
 
 WORKDIR /tmp
 
-COPY app.py requirements.txt index.html ./tmp
+COPY app.py requirements.txt index.html ./
 
 EXPOSE 3000
 
